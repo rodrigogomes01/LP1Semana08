@@ -17,5 +17,11 @@ namespace GameUnits
             XP++;
             u.Health--;
         }
+
+        // Constructor
+        public MilitaryUnit(int movement, int health, int attackPower) : base(movement, health)
+        {
+            AttackPower = attackPower;
+        }
     }
 }
