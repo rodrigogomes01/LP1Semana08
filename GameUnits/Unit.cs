@@ -27,5 +27,6 @@ namespace GameUnits
             return GetType().Name + ": HP=" + Health + " COST=" + Cost.ToString("0.00");
             
         }
+
     }
 }
