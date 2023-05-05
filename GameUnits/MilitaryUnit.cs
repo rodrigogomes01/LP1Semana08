@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GameUnits
 {
-    public class MilitaryUnit : Unit
+    public class MilitaryUnit : XPUnit
     {
         public int AttackPower { get; }
         public int XP { get; private set; }
