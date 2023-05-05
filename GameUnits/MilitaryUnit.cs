@@ -23,5 +23,12 @@ namespace GameUnits
         {
             AttackPower = attackPower;
         }
+
+        public override string ToString()
+
+        // Return string returned from base class with the AttackPower and XP values with a space between them
+        {
+            return base.ToString() + " AP=" + AttackPower + " XP=" + XP;
+        }
     }
 }
